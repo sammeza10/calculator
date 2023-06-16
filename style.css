@@ -21,7 +21,7 @@ body {
   background-color: #415a77;
   color: #ffffff;
   height: 20%;
-  font-size: 3.12rem;
+  font-size: 6rem;
   padding-right: 2%;
   font-weight: 300;
   text-align: right;
@@ -63,6 +63,26 @@ body {
   grid-column-end: 2 span;
   width: 15.8rem;
   border-radius: 55px;
+}
+
+.operation.selected,
+.equal.selected {
+  background-color: #ffffff;
+  color: #ee6c4d;
+}
+
+.operation.invalid,
+.equal.invalid,
+.button.invalid {
+  background-color: #202e47;
+  color: #8b8b8b;
+}
+
+.operation.invalid:hover,
+.equal.invalid:hover,
+.button.invalid:hover {
+  background-color: #202e47;
+  color: #8b8b8b;
 }
 
 .operation,
